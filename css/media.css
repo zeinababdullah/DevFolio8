@@ -1,0 +1,40 @@
+
+
+@media (max-width: 767px) {
+    /**---header--------*/
+    header h1 {
+        font-size: 2.5rem;
+    }
+    .overlay {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .overlay {
+        height: auto;
+    }
+
+    /**---navbar--------*/
+    nav .navbar-nav .nav-item .nav-link {
+        color: black;
+    }
+
+    .navbar-dark .navbar-nav {
+        padding-left: 1rem;
+
+    }
+
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: #0078ff;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+    }
+/**---header--------*/
+    header h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
